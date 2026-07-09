@@ -1,7 +1,5 @@
 package HandlingPop_Ups;
 
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;

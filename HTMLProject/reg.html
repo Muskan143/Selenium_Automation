@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorful Registration Form</title>
+</head>
+<body style="font-family:Arial, sans-serif;
+             background:linear-gradient(to right,#36d1dc,#5b86e5);
+             margin:0;">
+
+    <div style="width:450px;
+                margin:30px auto;
+                background:white;
+                padding:25px;
+                border-radius:15px;
+                box-shadow:0px 0px 15px gray;">
+
+        <h2 style="text-align:center;color:#5b86e5;">
+            Registration Form
+        </h2>
+
+        <form>
+
+            <label><b>First Name:</b></label><br>
+            <input type="text" name="fname" required
+                   style="width:95%;padding:8px;border:2px solid #36d1dc;border-radius:5px;">
+            <br><br>
+
+            <label><b>Last Name:</b></label><br>
+            <input type="text" name="lname" required
+                   style="width:95%;padding:8px;border:2px solid #36d1dc;border-radius:5px;">
+            <br><br>
+
+            <label><b>Email:</b></label><br>
+            <input type="email" name="email" required
+                   style="width:95%;padding:8px;border:2px solid #5b86e5;border-radius:5px;">
+            <br><br>
+
+            <label><b>Password:</b></label><br>
+            <input type="password" name="password" required
+                   style="width:95%;padding:8px;border:2px solid #5b86e5;border-radius:5px;">
+            <br><br>
+
+            <label><b>Gender:</b></label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label><b>Date of Birth:</b></label><br>
+            <input type="date" name="dob"
+                   style="padding:8px;border:2px solid #36d1dc;border-radius:5px;">
+            <br><br>
+
+            <label><b>Phone Number:</b></label><br>
+            <input type="tel" name="phone"
+                   style="width:95%;padding:8px;border:2px solid #36d1dc;border-radius:5px;">
+            <br><br>
+
+            <label><b>Address:</b></label><br>
+            <textarea name="address" rows="4" cols="40"
+                      style="border:2px solid #5b86e5;border-radius:5px;"></textarea>
+            <br><br>
+
+            <label><b>Course:</b></label><br>
+            <select name="course"
+                    style="width:100%;padding:8px;border:2px solid #36d1dc;border-radius:5px;">
+                <option>BCA</option>
+                <option>B.Tech</option>
+                <option>MCA</option>
+                <option>M.Tech</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" required>
+            I agree to the Terms and Conditions
+            <br><br>
+
+            <input type="submit" value="Register"
+                   style="background:#36d1dc;
+                          color:white;
+                          border:none;
+                          padding:10px 20px;
+                          border-radius:5px;
+                          cursor:pointer;">
+
+            <input type="reset" value="Clear"
+                   style="background:#ff6b6b;
+                          color:white;
+                          border:none;
+                          padding:10px 20px;
+                          border-radius:5px;
+                          cursor:pointer;">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
